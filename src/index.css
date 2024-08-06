@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+body{
+  background: linear-gradient(rgb(193, 211, 221), rgb(133, 81, 81));
 }
 
 nav {
@@ -33,7 +37,7 @@ nav img  {
 
 }
 
-.navlinks a {
+.navlinks  {
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -47,6 +51,59 @@ nav img  {
   margin: auto;
   text-align: center;
 }
+/* src/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+
+.navbar-button {
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: #777;
+}
+
 
 .food-list {
   display: grid;

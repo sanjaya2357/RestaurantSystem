@@ -38,7 +38,8 @@ const Foodlist = ({ items, title }) => {
     <>
       <h1> {title} </h1>
 
-      <div className="food-list">
+      <div className="food-list" style={{marginTop:"3vh" 
+      }}>
         {
           items.map((food) => {
             return (

@@ -13,7 +13,7 @@ const Orders = () => {
 		}, [])
 	
 	return (
-		< div >
+		< div style={{marginTop:"5vh"}}>
 			{orders && <Foodlist items={orders} title="Food ordered"/>}
 		</div >
 		);

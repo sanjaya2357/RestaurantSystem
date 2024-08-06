@@ -57,9 +57,9 @@ const Fooddetails = () => {
                 <h3>Rating :{item.rating}</h3>
                 <h3>Type :{item.type}</h3>
 
-                <button onClick={handleDeleteFood}>Removal of food</button>
+                <button onClick={handleDeleteFood}>Remove food</button>
                 <Link to={`/update${id}`}>
-                <button>update food</button>
+                <button>Update food</button>
 
                 </Link>
 

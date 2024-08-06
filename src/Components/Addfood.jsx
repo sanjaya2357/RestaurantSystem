@@ -44,7 +44,6 @@ const Addfood = () => {
 	return (
 		<div className="add-food">
 			<h1>ADDING NEW FOOD</h1>
-
 			<hr />
 
 			<form onSubmit={handleAddFood}>

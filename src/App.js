@@ -1,12 +1,13 @@
 import './App.css';
-import Addfood from './components/Addfood';
-import Fooddetails from './components/Fooddetails';
-import Home from './components/Home';
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Searchfood from './components/Searchfood';
-import Updatefood from './components/Updatefood';
-import Orders from './components/Orders';
+import Addfood from './Components/Addfood';
+import Fooddetails from './Components/Fooddetails';
+import Home from './Components/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Searchfood from './Components/Searchfood';
+import Updatefood from './Components/Updatefood';
+import Orders from './Components/Orders';
+import Navbar from './Components/Navbar';
+
 function App() {
 	return (
 		<Router>
@@ -21,14 +22,15 @@ function App() {
 					</Route >
 
 					<Route path="/addfood">
-						<Addfood />
+					// <Addfood></Addfood>
+						// <Addfood />
 					</Route>
 
 					<Route path="/fooddetails:id">
 						<Fooddetails />
 					</Route>
 
-					<Route path="/Search:searchKey">
+					<Route path="/search/:searchKey">
 						<Searchfood />
 					</Route>
 
